@@ -4,54 +4,253 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <title>Document</title>
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css?family=Allerta"
       rel="stylesheet"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css?family=Abel"
       rel="stylesheet"
     />
+    <style>
+      /* Write styles here */
+      *{
+        margin: 0;
+        padding: 0;
+      }
+      body{
+        width: 100%;
+      }
+      #navbarMonstera{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+      }
+      #navMid{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        left: 130px;
 
-    <title>Project 5</title>
+      }
+      .navMid-item{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 45px;
+        font-family: sans-serif;
+        font-size: 15px;
+      }
+      #navEnd{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        width: 22%;
+      }
+      .navEnd-item{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 9px;
+        size: 1px
+      }
+      #navFirst{
+        width: 95px;
+        margin-left: 40px;
+      }
+      #midWholePart1{
+        position: relative;
+        width: 100%;
+      }
+      #midWholePart11{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        top:110px;
+        left: 70px;
+        width: 50%;
+        
+      }
+      #monstera{
+        font-size: 90px;
+        width: 40px;
+        font-family:sans-serif;
+      
+      }
+      #li-item{
+        width: 470px;
+        font-size: 12px;
+      }
+      #midWholePart12{
+        margin-left: 65px;
+        margin-top: 140px;
+      }
+      ##midWholePart121{
+        width: 100%;
+      }
+      #midHeading{
+        background-color: #466d50;
+        padding: 8px 8px;
+        width: 152px;
+        border: 2px ;
+        border-radius: 25px;
+        color: white;
+        font-size: 20px;
+        
+      }
+
+      #midWhole{
+        display: flex;
+        flex-direction: row;
+      }
+      #midWholePart13{
+        position: relative;
+        right:0;
+        display: flex;
+        left: 60px;
+        width: 90%;
+        
+      }
+      #midWholePart13parts{
+        display: flex;
+        flex-direction: row;
+        
+      }
+      #feeding-item{
+        display: flex;
+        flex-direction: row;
+      }
+      #feeding{
+        display: flex;
+        flex-direction: row;
+        width: 60px;
+        height: 50px;
+      }
+      .text{
+        font-size: 12px;
+      }
+
+      #imgMain{
+        position: relative;
+        top: 22px;
+        width: 556px;
+        height: 460px;
+      }
+      
+    </style>
+    
   </head>
   <body>
-    <div class="container">
-      <section aria-label="navbar">
-        <nav class="navbar">
-          <div class="bran-logo">
-            <img class="logo" src="./assets/white-logo.png" alt="logo" class="logo" />
-          </div>
-          <div class="line"></div>
-          <div class="grow-list">
-            <ul class="list">
-              <li class="list-item">Apps</li>
-              <li class="list-item">DAO</li>
-              <li class="list-item">Technology</li>
-              <li class="list-item">Token</li>
-              <li class="list-item">Contributors</li>
+    <nav id="navbarMonstera">
+      <div >
+        <img id="navFirst" src="./photos/Logo.svg" />
+      </div>
+
+      <div id="navMid">
+        <div class="navMid-item">
+          <h4  style="color: rgb(35, 35, 252);">Home</h4>
+        </div>
+        <div class="navMid-item"><h4>Collection</h4></div>
+        <div class="navMid-item">
+          <h4>Shop</h4>
+        </div>
+        <div class="navMid-item">
+          <h4>About</h4>
+        </div>
+        <div class="navMid-item">
+          <h4>Contact</h4>
+        </div>
+      </div>
+
+      <div id="navEnd">
+        <div class="navEnd-item">
+          <img src="./photos/cart.svg" />
+        </div>
+        <div class="navEnd-item">
+          <img src="./photos/user.svg" />
+        </div>
+        <div class="navEnd-item">
+          <img src="./photos/search.svg" />
+        </div>
+      </div>
+    </nav>
+
+    <div id="midWhole">
+      <div id="midWholePart1">
+        <div id="midWholePart11">
+          <div>
+            <ul>
+              <li><h1 id="monstera">MONSTERA</h1></li>
+              <li id="li-item"></li>
+              <li id="li-item" >
+                Lorem ipsum, dolor amet consectetur adipisicing elit.
+               nostrum saepe.
+              </li>
+              <li id="li-item">
+                Quibusdam perferendis, dolore  asest odit iste cum quas quidem
+                officiis laudantium hic maxime recusandae?
+              </li>
             </ul>
           </div>
-          <div>
-            <button class="button-small">Buy 1 Token</button>
-          </div>
-        </nav>
-      </section>
-      <!-- Hero Section -->
-      <section aria-label="hero">
-        <div class="hero">
-          <h1 class="hero-heading">Lets build a better tomorrow, together.</h1>
-          <p class="hero-description">
-            Buy 1 Token. Join the DAO. Change the world
-          </p>
-          <button class="button-large">Request early access</button>
         </div>
-      </section>
+        <div id="midWholePart12">
+          <div id="midWholePart121">
+            <div >
+              <button id="midHeading">DISCOVER</button>
+            </div>
+            <div id="midWholePart122">
+              <img src="./photos/greaterThan.svg" />
+            </div>
+          </div>
+        </div>
+        <div id="midWholePart13">
+          <div class="midWholePart13Parts">
+            <div id="feeding-item">
+              <img id="feeding" src="./photos/water plant.png" />
+              <div>
+                <h4>Feeding</h4>
+                <p class="text">
+                  Lorem ipsum dolor sit amet consecteturadipisicing elit
+                </p>
+              </div>
+            </div>
+           
+          </div>
+          <div class="midWholePart13Parts">
+            <div id="feeding-item">
+              <img id="light" src="./photos/light.svg" alt="" />
+              <div>
+                <h4>Light</h4>
+                <p class="text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit
+                </p>
+              </div>
+            </div>
+           
+          </div>
+          <div class="midWholePart13Parts">
+            <div id="feeding-item">
+              <img id="care" src="./photos/plough.svg" />
+              <div>
+                <h4>Care</h4>
+                <p class="text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit
+                </p>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <div id="midWholePart14">
+        <img id="imgMain" src="./photos/6_folwer_cut.png" />
+      </div>
     </div>
   </body>
 </html>

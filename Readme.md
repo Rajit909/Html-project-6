@@ -1,6 +1,6 @@
-![image](https://img.shields.io/badge/project-5-red)
+![image](https://img.shields.io/badge/project-6-red)
 
-## Project-05  [live Link](https://project-5.netlify.app/)
+## Project-06  [live Link](https://project-6.netlify.app/)
 
 **Name:** Rajit kumar
 
@@ -15,4 +15,4 @@
 
 ![image](https://img.shields.io/badge/Full%20stack%20JS%20bootcamp-Hitesh%20Chaudhary-lightgrey)
 
-![image](https://github.com/Rajit909/Html-project-5/5.png)
+![image](https://github.com/Rajit909/Html-project-6/6.png)
